@@ -1,0 +1,10 @@
+.DS_Store
+build.log
+npm-debug.log
+tmp
+.map
+/Resources
+/i18n
+/platform
+/dist
+/build

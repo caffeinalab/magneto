@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"build",
+				"Resources",
+				"plugins"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"ternjs": {
+		"exclude": ["Resources/**","assets/**","platform/**","build/**","plugins/**"],
+		"libs": ["ecma5", "underscore"],
+		"plugins": {}
+	}
+}

@@ -1,0 +1,18 @@
+<Alloy>
+	<NavigationWindow id="mainNav" module="T/uifactory/navigationwindow">
+		<Window id="mainWindow" module="T/uifactory/window">
+
+			<View id="gradient" />
+			<Label id="val" />
+			<Label id="mu" />
+			<Label id="st" />
+			<Button id="btn" />
+
+			<Button id="shareFb" />
+			<Button id="shareTw" />
+
+			<Widget id="siri" style="ios9" src="com.caffeinalab.titanium.siriwave" />
+
+		</Window>
+	</NavigationWindow>
+</Alloy>

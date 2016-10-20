@@ -1,0 +1,19 @@
+"#mainWindow":{
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: { x: '0%', y: '0%' },
+		endPoint: { x: '0%', y: '100%' },
+		colors: [ { color: Alloy.CFG.colors.primary_light, offset: 0 }, { color: Alloy.CFG.colors.primary_dark, offset: 1 } ],
+	}
+},
+"#helpMsg":{
+	top: 40,
+	textAlign: 'center',
+	font:{
+		fontSize: 18
+	}
+},
+"#helpImage":{
+	bottom: 0,
+	image: '/images/lsd.png'
+}

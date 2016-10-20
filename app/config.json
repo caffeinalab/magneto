@@ -1,0 +1,22 @@
+{
+  "global": {
+    "colors": {
+      "primary_light": "#EC6700",
+      "primary_dark": "#DE3800"
+    },
+    "T": {
+    }
+  },
+  "env:development": {
+    "bootDebugRoute": ""
+  },
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "dependencies": {
+    "com.caffeinalab.titanium.siriwave": "*"
+  }
+}

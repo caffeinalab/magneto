@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+  <string name="help_localization_disabled">In order to use Magneto, you must activate location services.\n\nPlease, go to "Settings > Privacy > Location services" and allow Magneto.</string>
+  <string name="help_localization">We are asking you to activate location services. If you agree, we will be able to show you more accurate values.</string>
+  <string name="help_activate">ACTIVATE</string>
+</resources>

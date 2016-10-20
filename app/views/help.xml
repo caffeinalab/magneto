@@ -1,0 +1,8 @@
+<Alloy>
+	<Window module="T/uifactory/window" id="mainWin">
+		<ScrollView id="sview">
+			<Label id="helpMsg" textid="help_localization" />
+			<Button id="helpBtn" titleid="help_activate" />
+		</ScrollView>
+	</Window>
+</Alloy>

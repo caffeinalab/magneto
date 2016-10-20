@@ -1,0 +1,18 @@
+"Label":{
+	color: '#fff',
+	font:{
+		fontFamily: 'HelveticaNeue-Light',
+		fontSize: 20
+	}
+},
+"#siri":{
+	width: 320,
+	height: 120,
+	amplitude: "0",
+	autostart: true
+},
+"#siriWave":{
+	width: 320,
+	height: 120,
+	bottom: 25,
+},

@@ -1,0 +1,67 @@
+"Window":{
+	backgroundColor: '#000'
+},
+"#gradient":{
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: { x: '0%', y: '0%' },
+		endPoint: { x: '0%', y: '100%' },
+		colors: [ { color: '#0000', offset: 0 }, { color: '#9000', offset: 1 } ],
+	}
+},
+"#val":{
+	top: 36,
+	font:{
+		fontFamily: 'HelveticaNeue-UltraLight',
+		fontSize: 120
+	}
+},
+"#mu":{
+	top: 160,
+	text: "Microtesla µT",
+	font:{
+		fontSize: 16
+	}
+},
+"#st":{
+	text: "READY",
+	top: 230,
+	font:{
+		fontFamily: 'HelveticaNeue-Light',
+		fontSize: 28
+	}
+},
+"#btn":{
+	width: 100,
+	height: 100,
+	borderRadius: 50,
+	backgroundColor: "#FFF",
+	top: 280,
+	title: "START",
+	color: '#000',
+	font:{
+		fontSize: 18
+	}
+},
+"#shareFb":{
+	top: 300,
+	right: 30,
+	color: '#fff',
+	borderRadius: 32,
+	backgroundColor: "#1FFF",
+	width: 64,
+	height: 64,
+	tintColor: '#fff',
+	image: '/images/facebook.png'
+},
+"#shareTw":{
+	top: 300,
+	left: 30,
+	color: '#fff',
+	borderRadius: 32,
+	backgroundColor: "#1FFF",
+	width: 64,
+	height: 64,
+	tintColor: '#fff',
+	image: '/images/twitter.png'
+}

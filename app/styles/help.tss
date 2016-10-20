@@ -1,0 +1,29 @@
+"#mainWin":{
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: { x: '0%', y: '0%' },
+		endPoint: { x: '0%', y: '100%' },
+		colors: [ { color: Alloy.CFG.colors.primary_light, offset: 0 }, { color: Alloy.CFG.colors.primary_dark, offset: 1 } ],
+	}
+},
+"#sview":{
+	layout: "vertical"
+},
+"#helpMsg":{
+	top: 60,
+	left: 15,
+	right: 15,
+	textAlign: 'center'
+},
+"#helpBtn":{
+	width: 150,
+	height: 150,
+	top: 40,
+	backgroundColor: '#fff',
+	color: Alloy.CFG.colors.primary_dark,
+	textAlign: 'center',
+	borderRadius: 75,
+	font:{
+		fontSize: 18
+	}
+}

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window module="T/uifactory/window" id="mainWindow">
+		<Label id="helpMsg" textid="help_localization_disabled" />
+		<ImageView id="helpImage" />
+	</Window>
+</Alloy>
