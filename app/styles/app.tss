@@ -5,14 +5,8 @@
 		fontSize: 20
 	}
 },
-"#siri":{
-	width: 320,
+"#cfn_SiriWave":{
+	width: Alloy.Globals.SCREEN_WIDTH,
 	height: 120,
-	amplitude: "0",
-	autostart: true
-},
-"#siriWave":{
-	width: 320,
-	height: 120,
-	bottom: 25,
+	bottom: 5,
 },

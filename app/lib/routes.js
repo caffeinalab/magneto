@@ -3,8 +3,8 @@
 // to understand how it works, but I think that is very straightforward.
 
 // Home boot route
-Router.on('/home', Core.locationPermsMiddleware, function() {
+Router.on('/home', function() {
 	// Do not use `Flow.openDirect` 'cause there's no reason to do that.
 	// You have to simply open the controller, the controller do the rest.
-	Alloy.createController('main');
+	Alloy.createController('home');
 });

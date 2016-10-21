@@ -4,9 +4,12 @@
 		{
 			"folder_exclude_patterns":
 			[
+				"dist",
 				"build",
 				"Resources",
-				"plugins"
+				"plugins",
+				"platform",
+				"i18n"
 			],
 			"follow_symlinks": true,
 			"path": "."
