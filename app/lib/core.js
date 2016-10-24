@@ -8,6 +8,7 @@ exports.isDetecting = false;
 exports.modulo = 0;
 exports.moduloAsString = '-';
 
+var fakeSimulatorHeading = 0;
 var headingListenerInstalled = false;
 
 // Handle the data from the compass, analyze it and store the modulo
@@ -74,6 +75,7 @@ exports.showDeniedPermission = function() {
 // This one handles the location permissions, showing (or not) the permission window.
 exports.checkPermissions = function() {
 	if (Alloy.Globals.SIMULATOR) {
+		Router.dispatch('/home');
 		return true;
 	}
 
@@ -119,11 +121,12 @@ exports.startDetection = function() {
 		// Here, we simulate the modulo using random values on the simulator
 		if (Alloy.Globals.SIMULATOR) {
 			setInterval(function() {
+				fakeSimulatorHeading += -2 + Math.random() * 4;
 				headingEventHandler({
 					heading: {
-						x: 40 * Math.random(),
-						y: 40 * Math.random(),
-						z: 40 * Math.random()
+						x: fakeSimulatorHeading,
+						y: fakeSimulatorHeading,
+						z: fakeSimulatorHeading
 					}
 				});
 			}, 100);
@@ -140,7 +143,7 @@ exports.stopDetection = function() {
 
 // Share on the platform
 exports.share = function(platform, modulo) {
-	var value = Util.rot13( Ti.Blob.base64encode( modulo ).replace(/\=/g,'') );
+	var value = Util.rot13( Ti.Utils.base64encode( modulo ).toString().replace(/\=/g,'') );
 	T('sharer')[ platform ]({
 		url: 'http://magneto.uno/s/?v=' + value,
 	});

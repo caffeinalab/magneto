@@ -42,6 +42,9 @@ var Q = T('ext/q');
 // It also tracks the screen view and timing automatically.
 var Flow = T('flow');
 
+// Utility that are usefuls throught the entire project
+var Util = T('util');
+
 // Core is our app main module.
 // It handles the requests and re-route it via the Event module.
 var Core = require('core');

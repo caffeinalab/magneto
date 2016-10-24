@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
+				"modulo",
+				"moduloAsString"
+			],
+			[
+				"mo",
+				"moduloAsString"
+			],
+			[
+				"click",
+				"Ti.CloudPush.showAppOnTrayClick"
+			],
+			[
 				"File",
 				"Ti.Filesystem"
 			],
 			[
 				"heart",
-				"heartMagneticVector	(?)"
+				"heartMagneticVector\t(?)"
 			],
 			[
 				"iluoghid",
@@ -401,7 +413,7 @@
 			],
 			[
 				"for",
-				"foreach	foreach …"
+				"foreach\tforeach …"
 			],
 			[
 				"LifeGate",
@@ -435,13 +447,61 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/help.js",
+			"settings":
+			{
+				"buffer_size": 278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/lib/core.js",
+			"settings":
+			{
+				"buffer_size": 4695,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/home.js",
+			"settings":
+			{
+				"buffer_size": 3355,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 320.0,
+		"last_filter": "save",
 		"selected_items":
 		[
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"ave",
+				"File: Save All"
+			],
+			[
+				"set s javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Save",
+				"File: Save All"
+			],
 			[
 				"set s java",
 				"Set Syntax: JavaScript"
@@ -483,7 +543,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 588.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -504,15 +564,39 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/flavio.destefano/Projects/Magneto",
-		"/Users/flavio.destefano/Projects/Magneto/app",
-		"/Users/flavio.destefano/Projects/Magneto/app/assets",
-		"/Users/flavio.destefano/Projects/Magneto/app/widgets/com.caffeinalab.titanium.siriwave/assets",
-		"/Users/flavio.destefano/Projects/Magneto/app/widgets/com.caffeinalab.titanium.siriwave/assets/SiriWaveJS",
-		"/Users/flavio.destefano/Projects/Magneto/app/widgets/com.caffeinalab.titanium.siriwave/controllers"
+		"/Users/flavio.destefano/Repos/magneto",
+		"/Users/flavio.destefano/Repos/magneto/app",
+		"/Users/flavio.destefano/Repos/magneto/app/styles",
+		"/Users/flavio.destefano/Repos/magneto/app/widgets",
+		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave"
 	],
 	"file_history":
 	[
+		"/Users/flavio.destefano/Repos/magneto/app/styles/lsdisabled.tss",
+		"/Users/flavio.destefano/Repos/magneto/LICENSE",
+		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/LICENSE",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/sounds.js",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/app.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/home.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/views/home.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/home.js",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/core.js",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/index.js",
+		"/Users/flavio.destefano/Repos/magneto/tiapp.xml",
+		"/Users/flavio.destefano/Repos/magneto/README.md",
+		"/Users/flavio.destefano/Repos/trimethyl/gendoc.sh",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/lsdisabled.js",
+		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/views/widget.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/controllers/widget.js",
+		"/Users/flavio.destefano/Repos/magneto/app/views/lsdisabled.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/routes.js",
+		"/Users/flavio.destefano/Repos/magneto/app.sublime-project",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/geo.js",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/main.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/trimethyl.js",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/util.js",
+		"/Users/flavio.destefano/Repos/magneto/app/views/help.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/alloy.js",
 		"/Users/flavio.destefano/Projects/Magneto/app/alloy.js",
 		"/Users/flavio.destefano/Projects/Magneto/tiapp.xml",
 		"/Users/flavio.destefano/Projects/CTA/build/appify/tiapp.xml",
@@ -615,36 +699,11 @@
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/symfony/console/Symfony/Component/Console/Descriptor/XmlDescriptor.php",
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/deploy",
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/tifoper/single.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/tifoper/fbsingle.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/admin/tifoper/index.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/js/common.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/comitato/edit.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/models/Edizione.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/layout.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/ldc_mappa.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/structure.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/footer.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/email.bundle/vendor/phpmailer/phpmailer/docs/DomainKeys_notes.txt",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/models/Gallery.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/bootstrap-calendar-master/components/bootstrap3/fonts/glyphicons-halflings-regular.svg",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/symfony/finder/Symfony/Component/Finder/Glob.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/macro/global.test",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/psr/log/Psr/Log/AbstractLogger.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/twig/twig/lib/Twig/Node/ForLoop.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/smartbanner.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/email.bundle/vendor/phpmailer/phpmailer/test_script/styles/shThemeMidnight.css",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-1.10.1.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-2.0.2.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-1.6.4.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-1.7.2.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-1.8.2.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-1.8.3.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/jquery-1.9.1.min.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/monitoring/js/jquery-1.11.0.min.js"
+		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/tifoper/fbsingle.twig"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
@@ -659,6 +718,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" T('sounds')",
+			"Ti.Media.createSound({ url: ",
+			"Ti.Media.createSound",
+			"RESET_STEP",
+			"headingEvent",
+			"startDete",
+			"bg",
+			"val",
+			"storeE",
+			"storeEarthMagneticVector",
+			"vector",
+			"earthMagneticIntensity",
+			"storeEarthMagneticVector",
+			"earthMagneticIntensity",
+			"value",
+			"cs",
+			"_stepIndex",
+			"tick",
+			"UIHandle",
+			"close",
+			"HEADINGEVE",
+			"isDETE",
+			"isDetecting",
+			"$.siri.",
+			"headingEventHandler",
+			"UIHandle",
+			"intvHandler",
+			"moduloAsString",
+			"storeEarthMagneticVector",
+			"askForPermissions",
+			"showDeniedPermission",
+			"askForPermissions",
 			"heart",
 			"heartMagnati",
 			"getLocation",
@@ -725,7 +816,7 @@
 			"type",
 			"getCurrentDriver",
 			"getDriver",
-			"</span>\n							<li>",
+			"</span>\n\t\t\t\t\t\t\t<li>",
 			"</span>",
 			"</li",
 			"<li><",
@@ -754,39 +845,7 @@
 			"belt downloadapp",
 			"{{ BASE_URI }}",
 			"ssn",
-			"SSN",
-			"shipping_ssn",
-			"billing_ssn",
-			"+1",
-			"fbadmin",
-			"payload",
-			"admin",
-			"$(this)",
-			"md",
-			"facebook-tab",
-			"btnAuth",
-			"not-auth",
-			"fbAsyncInit",
-			"s_title",
-			"common.js",
-			"ui.vote",
-			"$jpg_out",
-			"btn-default",
-			".orange",
-			"spinner",
-			"$(window)",
-			"close",
-			"close(",
-			".close()",
-			"pappa ",
-			"this.close();",
-			".close();",
-			".close",
-			"android",
-			"fuck",
-			"FUCK",
-			"close",
-			"blur"
+			"SSN"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -806,14 +865,107 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/help.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/lib/core.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4124,
+								4124
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2484.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								625,
+								625
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/ayu/ayu.tmTheme",
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -846,17 +998,87 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "app.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sound",
+				"app/lib/T/sounds.js"
+			],
+			[
+				"app.tss",
+				"app/styles/app.tss"
+			],
+			[
+				"home.tss",
+				"app/styles/home.tss"
+			],
+			[
+				"home.xml",
+				"app/views/home.xml"
+			],
+			[
+				"core",
+				"app/lib/core.js"
+			],
+			[
+				"core.js",
+				"app/lib/core.js"
+			],
+			[
+				"home.js",
+				"app/controllers/home.js"
+			],
+			[
+				"core.j",
+				"app/lib/core.js"
+			],
+			[
+				"inde",
+				"app/controllers/index.js"
+			],
+			[
+				"ahome.tss",
+				"app/styles/home.tss"
+			],
+			[
+				"home.ml",
+				"app/views/home.xml"
+			],
+			[
+				"lsdi",
+				"app/views/lsdisabled.xml"
+			],
+			[
+				"geo",
+				"app/lib/T/geo.js"
+			],
+			[
+				"help.js",
+				"app/controllers/help.js"
+			],
+			[
+				"main.tss",
+				"app/styles/main.tss"
+			],
+			[
+				"trime",
+				"app/lib/T/trimethyl.js"
+			],
+			[
+				"uti",
+				"app/lib/T/util.js"
+			],
 			[
 				"tiapp",
 				"tiapp.xml"
@@ -878,14 +1100,6 @@
 				"app/lib/T/http/request.js"
 			],
 			[
-				"core",
-				"app/lib/core.js"
-			],
-			[
-				"geo",
-				"app/lib/T/geo.js"
-			],
-			[
 				"index",
 				"app/controllers/index.js"
 			],
@@ -894,20 +1108,12 @@
 				"app/lib/T/facebook.js"
 			],
 			[
-				"uti",
-				"app/lib/T/util.js"
-			],
-			[
 				"sharer",
 				"app/lib/T/sharer.js"
 			],
 			[
 				"inde.",
 				"app/controllers/index.js"
-			],
-			[
-				"lsdi",
-				"app/views/lsdisabled.xml"
 			],
 			[
 				"help.tss",
@@ -932,10 +1138,6 @@
 			[
 				"conf",
 				"app/config.json"
-			],
-			[
-				"app.tss",
-				"app/styles/app.tss"
 			],
 			[
 				"widget.js",
@@ -1320,54 +1522,6 @@
 			[
 				"vehi",
 				"app/controllers/vehicle_manager.js"
-			],
-			[
-				"assets",
-				"contents/www/bundles/vapor.bundle/classes/Assets.php"
-			],
-			[
-				"asset",
-				"contents/www/bundles/vapor.bundle/classes/Assets.php"
-			],
-			[
-				"vapor",
-				"contents/www/bundles/vapor.bundle/_classes/Vapor.php"
-			],
-			[
-				"database",
-				"contents/www/bundles/vapor.bundle/classes/Database.php"
-			],
-			[
-				"basea",
-				"contents/www/bundles/vapor.bundle/vendor/vlucas/spot/lib/Spot/Adapter/PDO/BaseAbstract.php"
-			],
-			[
-				"vapor.",
-				"contents/www/bundles/vapor.bundle/_classes/Vapor.php"
-			],
-			[
-				"defi",
-				"app/plugins/lifegate/infografiche/definizioni.php"
-			],
-			[
-				"sett",
-				"app/plugins/lifegate/types_general/settings.php"
-			],
-			[
-				"single-b",
-				"app/themes/caffeina/single-blog.php"
-			],
-			[
-				"style.less",
-				"app/themes/caffeina/assets/less/style.less"
-			],
-			[
-				"style.les",
-				"app/themes/caffeina/assets/less/style.less"
-			],
-			[
-				"archive-jo",
-				"app/themes/caffeina/archive-jobs.php"
 			]
 		],
 		"width": 0.0
@@ -1375,6 +1529,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1383,6 +1538,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
