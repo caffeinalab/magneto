@@ -447,22 +447,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/controllers/index.js",
-			"settings":
-			{
-				"buffer_size": 530,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/lib/T/flow.js",
-			"settings":
-			{
-				"buffer_size": 6844,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -532,7 +516,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 435.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -554,32 +538,42 @@
 	"expanded_folders":
 	[
 		"/Users/flavio.destefano/Repos/magneto",
-		"/Users/flavio.destefano/Repos/magneto/app"
+		"/Users/flavio.destefano/Repos/magneto/app",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers"
 	],
 	"file_history":
 	[
-		"/Users/flavio.destefano/Repos/magneto/app/lib/routes.js",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/index.js",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/home.js",
-		"/Users/flavio.destefano/Repos/magneto/app/views/home.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/alloy.js",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/flow.js",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/routes.js",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/map.js",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/geo.js",
+		"/Users/flavio.destefano/Repos/magneto/app/views/map.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/core.js",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/map/cluster.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/map.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/views/home.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/map/cluster.js",
+		"/Users/flavio.destefano/Repos/magneto/app/views/map/cluster.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/config.json",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/http.js",
+		"/Users/flavio.destefano/Library/Caches/Cleanup At Startup/Transmit/DB1F2B61-4590-4C46-83FB-87D4E0B6AE31/index.php",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/home.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/app.tss",
 		"/Users/flavio.destefano/Repos/magneto/tiapp.xml",
 		"/Users/flavio.destefano/Repos/magneto/app/styles/tabs/measure.tss",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/tabs/measure.js",
-		"/Users/flavio.destefano/Repos/magneto/app/styles/app.tss",
-		"/Users/flavio.destefano/Repos/magneto/app/styles/home.tss",
 		"/Users/flavio.destefano/Repos/magneto/app/views/tabs/map.xml",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/tabs/home.js",
 		"/Users/flavio.destefano/Repos/magneto/app/views/tabs/home.xml",
-		"/Users/flavio.destefano/Repos/magneto/app/config.json",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/ga.js",
-		"/Users/flavio.destefano/Repos/magneto/app/alloy.js",
-		"/Users/flavio.destefano/Repos/magneto/app/lib/core.js",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/help.js",
 		"/Users/flavio.destefano/Repos/magneto/app/styles/lsdisabled.tss",
 		"/Users/flavio.destefano/Repos/magneto/LICENSE",
 		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/LICENSE",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/sounds.js",
-		"/Users/flavio.destefano/Repos/magneto/app/controllers/index.js",
 		"/Users/flavio.destefano/Repos/magneto/README.md",
 		"/Users/flavio.destefano/Repos/trimethyl/gendoc.sh",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/lsdisabled.js",
@@ -587,7 +581,6 @@
 		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/controllers/widget.js",
 		"/Users/flavio.destefano/Repos/magneto/app/views/lsdisabled.xml",
 		"/Users/flavio.destefano/Repos/magneto/app.sublime-project",
-		"/Users/flavio.destefano/Repos/magneto/app/lib/T/geo.js",
 		"/Users/flavio.destefano/Repos/magneto/app/styles/main.tss",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/trimethyl.js",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/util.js",
@@ -677,15 +670,7 @@
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/routes/02-admin.php",
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/js/ldc_tifoper.js",
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/routes/07-tifoper.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/home/index.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/symfony/finder/Symfony/Component/Finder/Expression/Regex.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/css/base.less",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/symfony/finder/Symfony/Component/Finder/Iterator/ExcludeDirectoryFilterIterator.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/header.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/xing-wysihtml5/src/assert/html_equal.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/.gitignore",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/leafo/lessphp/tests/inputs/pattern_matching.less",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/email.bundle/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php"
+		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/home/index.twig"
 	],
 	"find":
 	{
@@ -704,6 +689,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"40",
+			"die",
+			"storeInDb",
+			"_REQUEST",
+			"preg_match",
+			"detectInterval",
+			", { ",
+			"Core.share(",
 			"setCurrentC",
 			"NavigationWindow",
 			"checkPermi",
@@ -823,15 +816,7 @@
 			"</p>",
 			"Cuore</p>",
 			"<p>",
-			"div",
-			"vinci X",
-			"boscolo gift",
-			"no-svg",
-			"self.likes",
-			"indexOf",
-			"smartbanner.js",
-			"consol",
-			"<script"
+			"div"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -851,74 +836,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/controllers/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 530,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								530,
-								530
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/lib/T/flow.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								181
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 539.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -955,7 +880,7 @@
 	"project": "app.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -965,20 +890,96 @@
 		"selected_items":
 		[
 			[
-				"flow",
-				"app/lib/T/flow.js"
+				"g",
+				"app/lib/T/geo.js"
+			],
+			[
+				"map.js",
+				"app/controllers/map.js"
+			],
+			[
+				"map.tss",
+				"app/styles/map.tss"
+			],
+			[
+				"cluster",
+				"app/controllers/map/cluster.js"
+			],
+			[
+				"clusterjs",
+				"app/controllers/map/cluster.js"
+			],
+			[
+				"clsuter.tss",
+				"app/styles/map/cluster.tss"
+			],
+			[
+				"cluster.xml",
+				"app/views/map/cluster.xml"
+			],
+			[
+				"geo.js",
+				"app/lib/T/geo.js"
+			],
+			[
+				"core",
+				"app/lib/core.js"
+			],
+			[
+				"http",
+				"app/lib/T/http.js"
+			],
+			[
+				"conf",
+				"app/config.json"
+			],
+			[
+				"app.tss",
+				"app/styles/app.tss"
+			],
+			[
+				"home.xml",
+				"app/views/home.xml"
+			],
+			[
+				"map.xml",
+				"app/views/map.xml"
 			],
 			[
 				"home.js",
 				"app/controllers/home.js"
 			],
 			[
-				"rout",
+				"flow",
+				"app/lib/T/flow.js"
+			],
+			[
+				"home.tss",
+				"app/styles/home.tss"
+			],
+			[
+				"home.sj",
+				"app/controllers/home.js"
+			],
+			[
+				"app.ts",
+				"app/styles/app.tss"
+			],
+			[
+				"home",
+				"app/controllers/home.js"
+			],
+			[
+				"core.js",
+				"app/lib/core.js"
+			],
+			[
+				"routes",
 				"app/lib/routes.js"
 			],
 			[
-				"home.xml",
-				"app/views/home.xml"
+				"rout",
+				"app/lib/routes.js"
 			],
 			[
 				"tiap",
@@ -987,10 +988,6 @@
 			[
 				"rou",
 				"app/lib/routes.js"
-			],
-			[
-				"home",
-				"app/controllers/home.js"
 			],
 			[
 				"meajs",
@@ -1009,20 +1006,8 @@
 				"app/styles/tabs/measure.tss"
 			],
 			[
-				"map.xml",
-				"app/views/tabs/map.xml"
-			],
-			[
-				"app.tss",
-				"app/styles/app.tss"
-			],
-			[
 				"con",
 				"app/config.json"
-			],
-			[
-				"home.tss",
-				"app/styles/home.tss"
 			],
 			[
 				"ome.tss",
@@ -1031,14 +1016,6 @@
 			[
 				"ga.js",
 				"app/lib/T/ga.js"
-			],
-			[
-				"conf",
-				"app/config.json"
-			],
-			[
-				"routes",
-				"app/lib/routes.js"
 			],
 			[
 				"alloy.js",
@@ -1057,20 +1034,12 @@
 				"tiapp.xml"
 			],
 			[
-				"core",
-				"app/lib/core.js"
-			],
-			[
 				"inde.",
 				"app/controllers/index.js"
 			],
 			[
 				"sound",
 				"app/lib/T/sounds.js"
-			],
-			[
-				"core.js",
-				"app/lib/core.js"
 			],
 			[
 				"core.j",
@@ -1115,10 +1084,6 @@
 			[
 				"alll",
 				"app/lib/T/uifactory/label.js"
-			],
-			[
-				"http",
-				"app/lib/T/http/request.js"
 			],
 			[
 				"index",
@@ -1435,46 +1400,6 @@
 			[
 				"base.le",
 				"assets/css/base.less"
-			],
-			[
-				"sele",
-				"assets/css/select2.min.css"
-			],
-			[
-				"luogo/index",
-				"views/luogo/index.twig"
-			],
-			[
-				"mai",
-				"main.php"
-			],
-			[
-				"socialvo",
-				"views/luogo/socialvote.twig"
-			],
-			[
-				"luogo/inde",
-				"views/luogo/index.twig"
-			],
-			[
-				"base.l",
-				"assets/css/base.less"
-			],
-			[
-				"ldc_map",
-				"assets/js/ldc_mappa.js"
-			],
-			[
-				"view",
-				"bundles/vapor.bundle/classes/View.php"
-			],
-			[
-				"locator",
-				"views/home/locator.twig"
-			],
-			[
-				"index.twig",
-				"views/home/index.twig"
 			]
 		],
 		"width": 0.0
