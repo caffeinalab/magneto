@@ -32,16 +32,12 @@ var STEPS = [
 }
 ];
 
-$.shareFb.addEventListener('click', function() {
-	// Dispatch the share route to the target platform using the 
-	// Util.buildQuery to build the request (no real needed, only for proof of concept)
-	Router.go('/share/facebook' + Util.buildQuery({ modulo: Core.moduloAsString }));
+$.shareFb.addEventListener('click', function(){
+	Core.share('facebook', Core.moduloAsString);
 });
 
-$.shareTw.addEventListener('click', function() {
-	// Dispatch the share route to the target platform using the 
-	// Util.buildQuery to build the request (no real needed, only for proof of concept)
-	Router.go('/share/twitter' + Util.buildQuery({ modulo: Core.moduloAsString }));
+$.shareTw.addEventListener('click', function(){
+	Core.share('twitter', Core.moduloAsString);
 });
 
 // This is the listener that does every fucking thing
@@ -81,7 +77,7 @@ $.startDetectionBtn.addEventListener('click', function(){
 
 // Respond to the main event changing the UI according it
 function refreshUI() {
-	// Avoid to refresh
+	// Avoid to refresh and parse
 	if (!isDetecting) return;
 	
 	// Update the UI
@@ -123,26 +119,7 @@ function refreshUI() {
 	}
 }
 
-// Get current user position
-Geo.getCurrentPosition({
-	success: function(geoData) {
-
-		// Set the new region of the map
-		$.mapView.setRegion({
-			animated: true,
-			latitude: geoData.latitude,
-			longitude: geoData.longitude,
-			latitudeDelta: 1,
-		});
-	
-	}
-});
-
+// Get the earth magnetic vector in my position and print the UI
 Core.getEarthMagneticVector(function() {
 	$.earthIntensityLabel.text = Core.earthMagneticIntensity;
 });
-
-// Set, in a single call, the global navigator (and open it), 
-// the boot controller and the boot window.
-// You can now access to the navigator using `Flow.getNavigationController()` 
-Flow.startup($, $.mainNav, $.mainWindow, 'main', {});

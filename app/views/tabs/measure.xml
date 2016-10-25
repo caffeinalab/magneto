@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="mainWindow" module="T/uifactory/window" title="Measure">
+
+		<View id="gradient" />
+
+		<Label id="val" text="-" />
+		<Label id="earthIntensityLabel" text="-" />
+		<Label id="mu" />
+		<Label id="st" />
+
+		<Button id="startDetectionBtn" />
+
+		<Button id="shareFb" />
+		<Button id="shareTw" />
+
+		<Widget id="siriWidget" src="com.caffeinalab.titanium.siriwave" />
+
+	</Window>
+</Alloy>

@@ -448,29 +448,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/help.js",
+			"file": "app/controllers/index.js",
 			"settings":
 			{
-				"buffer_size": 278,
-				"encoding": "UTF-8",
+				"buffer_size": 530,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/lib/core.js",
+			"file": "app/lib/T/flow.js",
 			"settings":
 			{
-				"buffer_size": 4695,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/home.js",
-			"settings":
-			{
-				"buffer_size": 3355,
-				"encoding": "UTF-8",
+				"buffer_size": 6844,
 				"line_ending": "Unix"
 			}
 		}
@@ -483,15 +472,15 @@
 	"command_palette":
 	{
 		"height": 320.0,
-		"last_filter": "save",
+		"last_filter": "ave",
 		"selected_items":
 		[
 			[
-				"save",
+				"ave",
 				"File: Save All"
 			],
 			[
-				"ave",
+				"save",
 				"File: Save All"
 			],
 			[
@@ -565,38 +554,44 @@
 	"expanded_folders":
 	[
 		"/Users/flavio.destefano/Repos/magneto",
-		"/Users/flavio.destefano/Repos/magneto/app",
-		"/Users/flavio.destefano/Repos/magneto/app/styles",
-		"/Users/flavio.destefano/Repos/magneto/app/widgets",
-		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave"
+		"/Users/flavio.destefano/Repos/magneto/app"
 	],
 	"file_history":
 	[
+		"/Users/flavio.destefano/Repos/magneto/app/lib/routes.js",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/home.js",
+		"/Users/flavio.destefano/Repos/magneto/app/views/home.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/flow.js",
+		"/Users/flavio.destefano/Repos/magneto/tiapp.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/tabs/measure.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/tabs/measure.js",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/app.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/styles/home.tss",
+		"/Users/flavio.destefano/Repos/magneto/app/views/tabs/map.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/tabs/home.js",
+		"/Users/flavio.destefano/Repos/magneto/app/views/tabs/home.xml",
+		"/Users/flavio.destefano/Repos/magneto/app/config.json",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/T/ga.js",
+		"/Users/flavio.destefano/Repos/magneto/app/alloy.js",
+		"/Users/flavio.destefano/Repos/magneto/app/lib/core.js",
+		"/Users/flavio.destefano/Repos/magneto/app/controllers/help.js",
 		"/Users/flavio.destefano/Repos/magneto/app/styles/lsdisabled.tss",
 		"/Users/flavio.destefano/Repos/magneto/LICENSE",
 		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/LICENSE",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/sounds.js",
-		"/Users/flavio.destefano/Repos/magneto/app/styles/app.tss",
-		"/Users/flavio.destefano/Repos/magneto/app/styles/home.tss",
-		"/Users/flavio.destefano/Repos/magneto/app/views/home.xml",
-		"/Users/flavio.destefano/Repos/magneto/app/controllers/home.js",
-		"/Users/flavio.destefano/Repos/magneto/app/lib/core.js",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/index.js",
-		"/Users/flavio.destefano/Repos/magneto/tiapp.xml",
 		"/Users/flavio.destefano/Repos/magneto/README.md",
 		"/Users/flavio.destefano/Repos/trimethyl/gendoc.sh",
 		"/Users/flavio.destefano/Repos/magneto/app/controllers/lsdisabled.js",
 		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/views/widget.xml",
 		"/Users/flavio.destefano/Repos/magneto/app/widgets/com.caffeinalab.titanium.siriwave/controllers/widget.js",
 		"/Users/flavio.destefano/Repos/magneto/app/views/lsdisabled.xml",
-		"/Users/flavio.destefano/Repos/magneto/app/lib/routes.js",
 		"/Users/flavio.destefano/Repos/magneto/app.sublime-project",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/geo.js",
 		"/Users/flavio.destefano/Repos/magneto/app/styles/main.tss",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/trimethyl.js",
 		"/Users/flavio.destefano/Repos/magneto/app/lib/T/util.js",
 		"/Users/flavio.destefano/Repos/magneto/app/views/help.xml",
-		"/Users/flavio.destefano/Repos/magneto/app/alloy.js",
 		"/Users/flavio.destefano/Projects/Magneto/app/alloy.js",
 		"/Users/flavio.destefano/Projects/Magneto/tiapp.xml",
 		"/Users/flavio.destefano/Projects/CTA/build/appify/tiapp.xml",
@@ -690,16 +685,7 @@
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/xing-wysihtml5/src/assert/html_equal.js",
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/.gitignore",
 		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/leafo/lessphp/tests/inputs/pattern_matching.less",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/email.bundle/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/monitoring/js/main.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/main.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/README.md",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/xing-wysihtml5/parser_rules/simple.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/assets/static/xing-wysihtml5/src/dom/parse.js",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/vapor.bundle/vendor/symfony/console/Symfony/Component/Console/Descriptor/XmlDescriptor.php",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/deploy",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/tifoper/single.twig",
-		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/views/tifoper/fbsingle.twig"
+		"/Users/flavio.destefano/Sites/containers/iluoghidelcuore.it/contents/www/bundles/email.bundle/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php"
 	],
 	"find":
 	{
@@ -718,6 +704,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"setCurrentC",
+			"NavigationWindow",
+			"checkPermi",
+			"refreshUI",
+			"isDetecting",
+			"refreshUI",
+			"detectInterval",
+			"sound",
+			"util",
+			"40 * Math.random()",
+			"fakeSimulatorHeading",
+			"headingListenerInstalled",
 			" T('sounds')",
 			"Ti.Media.createSound({ url: ",
 			"Ti.Media.createSound",
@@ -833,19 +831,7 @@
 			"indexOf",
 			"smartbanner.js",
 			"consol",
-			"<script",
-			"loader",
-			"spinner",
-			".spinner",
-			"nextsstream",
-			"\\s-.*",
-			" -",
-			"config",
-			"p",
-			"belt downloadapp",
-			"{{ BASE_URI }}",
-			"ssn",
-			"SSN"
+			"<script"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -865,92 +851,29 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/help.js",
+					"file": "app/controllers/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 278,
+						"buffer_size": 530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								278,
-								278
+								530,
+								530
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/lib/core.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4124,
-								4124
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2484.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/home.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								625,
-								625
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/ayu/ayu.tmTheme",
-							"history_list_is_closing": true,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -958,6 +881,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/lib/T/flow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								181
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/ayu.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 539.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1012,32 +965,112 @@
 		"selected_items":
 		[
 			[
-				"sound",
-				"app/lib/T/sounds.js"
+				"flow",
+				"app/lib/T/flow.js"
 			],
 			[
-				"app.tss",
-				"app/styles/app.tss"
+				"home.js",
+				"app/controllers/home.js"
 			],
 			[
-				"home.tss",
-				"app/styles/home.tss"
+				"rout",
+				"app/lib/routes.js"
 			],
 			[
 				"home.xml",
 				"app/views/home.xml"
 			],
 			[
+				"tiap",
+				"tiapp.xml"
+			],
+			[
+				"rou",
+				"app/lib/routes.js"
+			],
+			[
+				"home",
+				"app/controllers/home.js"
+			],
+			[
+				"meajs",
+				"app/controllers/tabs/measure.js"
+			],
+			[
+				"mea",
+				"app/styles/tabs/measure.tss"
+			],
+			[
+				"route",
+				"app/lib/routes.js"
+			],
+			[
+				"meatss",
+				"app/styles/tabs/measure.tss"
+			],
+			[
+				"map.xml",
+				"app/views/tabs/map.xml"
+			],
+			[
+				"app.tss",
+				"app/styles/app.tss"
+			],
+			[
+				"con",
+				"app/config.json"
+			],
+			[
+				"home.tss",
+				"app/styles/home.tss"
+			],
+			[
+				"ome.tss",
+				"app/styles/home.tss"
+			],
+			[
+				"ga.js",
+				"app/lib/T/ga.js"
+			],
+			[
+				"conf",
+				"app/config.json"
+			],
+			[
+				"routes",
+				"app/lib/routes.js"
+			],
+			[
+				"alloy.js",
+				"app/alloy.js"
+			],
+			[
+				"all",
+				"app/alloy.js"
+			],
+			[
+				"core.",
+				"app/lib/core.js"
+			],
+			[
+				"tiapp",
+				"tiapp.xml"
+			],
+			[
 				"core",
 				"app/lib/core.js"
 			],
 			[
-				"core.js",
-				"app/lib/core.js"
+				"inde.",
+				"app/controllers/index.js"
 			],
 			[
-				"home.js",
-				"app/controllers/home.js"
+				"sound",
+				"app/lib/T/sounds.js"
+			],
+			[
+				"core.js",
+				"app/lib/core.js"
 			],
 			[
 				"core.j",
@@ -1080,18 +1113,6 @@
 				"app/lib/T/util.js"
 			],
 			[
-				"tiapp",
-				"tiapp.xml"
-			],
-			[
-				"tiap",
-				"tiapp.xml"
-			],
-			[
-				"all",
-				"app/alloy.js"
-			],
-			[
 				"alll",
 				"app/lib/T/uifactory/label.js"
 			],
@@ -1112,10 +1133,6 @@
 				"app/lib/T/sharer.js"
 			],
 			[
-				"inde.",
-				"app/controllers/index.js"
-			],
-			[
 				"help.tss",
 				"app/styles/help.tss"
 			],
@@ -1134,10 +1151,6 @@
 			[
 				"index.js",
 				"app/controllers/index.js"
-			],
-			[
-				"conf",
-				"app/config.json"
 			],
 			[
 				"widget.js",
@@ -1462,66 +1475,6 @@
 			[
 				"index.twig",
 				"views/home/index.twig"
-			],
-			[
-				"signup",
-				"views/signup.twig"
-			],
-			[
-				"luogo/se",
-				"views/luogo/segnalazione.twig"
-			],
-			[
-				"01-i",
-				"routes/01-index.php"
-			],
-			[
-				"luogo/soc",
-				"views/luogo/social.twig"
-			],
-			[
-				"03-ser",
-				"routes/03-service.php"
-			],
-			[
-				"soci",
-				"views/luogo/social.twig"
-			],
-			[
-				"social",
-				"views/social.twig"
-			],
-			[
-				"home",
-				"views/home/index.twig"
-			],
-			[
-				"depl",
-				"deploy"
-			],
-			[
-				"setgt",
-				"app/controllers/settings.js"
-			],
-			[
-				"geni",
-				"app/lib/app/genialloyd.ui.js"
-			],
-			[
-				"fir",
-				"app/controllers/first.js"
-			],
-			[
-				"c",
-				"app/config.json"
-			],
-			[
-				"fi",
-				"app/controllers/first.js"
-			],
-			[
-				"vehi",
-				"app/controllers/vehicle_manager.js"
 			]
 		],
 		"width": 0.0

@@ -75,7 +75,9 @@ exports.showDeniedPermission = function() {
 // This one handles the location permissions, showing (or not) the permission window.
 exports.checkPermissions = function() {
 	if (Alloy.Globals.SIMULATOR) {
-		Router.dispatch('/home');
+		if (!Alloy.Globals.homeDispatchedAtLeastOnce) {
+			Router.dispatch('/home');
+		}
 		return true;
 	}
 
@@ -87,7 +89,9 @@ exports.checkPermissions = function() {
 		if (exports.askForPermissions.controller != null) exports.askForPermissions.controller.close();
 
 		// Dispatch the boot route
-		Router.dispatch('/home');
+		if (!Alloy.Globals.homeDispatchedAtLeastOnce) {
+			Router.dispatch('/home');
+		}
 
 		return true;
 
@@ -139,14 +143,6 @@ exports.startDetection = function() {
 // Stop the detection with a simple flag that doesn't call the event
 exports.stopDetection = function() {
 	exports.isDetecting = false;
-};
-
-// Share on the platform
-exports.share = function(platform, modulo) {
-	var value = Util.rot13( Ti.Utils.base64encode( modulo ).toString().replace(/\=/g,'') );
-	T('sharer')[ platform ]({
-		url: 'http://magneto.uno/s/?v=' + value,
-	});
 };
 
 // Do not pause location update never. 
