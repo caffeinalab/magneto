@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="mainWindow" title="Magneto map" module="T/uifactory/window">
+		
+		<View id="mapView" module="ti.map" />
+
+	</Window>
+</Alloy>

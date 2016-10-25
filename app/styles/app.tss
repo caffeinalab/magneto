@@ -1,3 +1,11 @@
+"Window":{
+	navTintColor: '#fff',
+	backButtonTitle: '',
+	titleAttributes:{
+		color: '#fff'
+	},
+	barColor: Alloy.CFG.colors.primary,
+},
 "Label":{
 	color: '#fff',
 	font:{
@@ -8,5 +16,5 @@
 "#cfn_SiriWave":{
 	width: Alloy.Globals.SCREEN_WIDTH,
 	height: 120,
-	bottom: 5,
+	bottom: -10,
 },

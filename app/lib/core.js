@@ -35,18 +35,10 @@ function headingEventHandler(e) {
 exports.getEarthMagneticVector = function(callback) {
 	Geo.getCurrentPosition({
 		success: function(geoData) {
-			HTTP.send({
-				url: 'http://magneto.uno/api',
-				data: geoData,
-
-				// Force the parsing from JSON to instance object
-				format: 'json',
-
-				success: function(vector) {
-					exports.earthMagneticVector = vector;
-					exports.earthMagneticIntensity = vector.i;
-					callback();
-				}
+			HTTP.getJSON('/api', geoData).then(function(vector) {
+				exports.earthMagneticVector = vector;
+				exports.earthMagneticIntensity = vector.i;
+				callback();
 			});
 		}
 	});

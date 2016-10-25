@@ -1,8 +1,11 @@
 <Alloy>
 	<NavigationWindow id="mainNav" module="T/uifactory/navigationwindow">
-		<Window id="mainWindow" module="T/uifactory/window">
+		<Window id="mainWindow" title="Magneto" module="T/uifactory/window">
+			
+			<RightNavButton>
+				<View><Button title="View map" id="mapRightButton" /></View>
+			</RightNavButton>
 
-			<View id="mapView" module="ti.map" />
 			<View id="gradient" />
 
 			<Label id="val" text="-" />

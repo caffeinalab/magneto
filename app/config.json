@@ -1,10 +1,14 @@
 {
   "global": {
     "colors": {
+      "primary": "#EB6214",
       "primary_light": "#EC6700",
       "primary_dark": "#DE3800"
     },
     "T": {
+      "http": {
+        "base": "http://magneto.uno"
+      }
     }
   },
   "env:development": {

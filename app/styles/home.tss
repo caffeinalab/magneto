@@ -1,7 +1,3 @@
-"Window":{
-	navBarHidden: true,
-	backgroundColor: '#000'
-},
 "#gradient":{
 	backgroundGradient: {
 		type: 'linear',
@@ -10,32 +6,31 @@
 		colors: [ { color: '#B000', offset: 0 }, { color: '#9000', offset: 1 } ],
 	}
 },
-"#mapView":{
-	opacity: 0.5,
-	userLocation: true
-},
 "#siriWidget":{
 	width: Alloy.Globals.SCREEN_WIDTH,
 	height: 120,
 	amplitude: "0",
 	autostart: true
 },
+"#mapRightButton":{
+	color: '#fff'
+},
 "#val":{
-	top: 36,
+	top: 5,
 	font:{
 		fontFamily: 'HelveticaNeue-UltraLight',
 		fontSize: 120
 	}
 },
 "#earthIntensityLabel":{
-	top: 170,
+	top: 130,
 	font:{
 		fontFamily: 'HelveticaNeue-Light',
 		fontSize: 20
 	}
 },
 "#mu":{
-	top: 200,
+	top: 160,
 	text: "Microtesla µT",
 	font:{
 		fontSize: 13
@@ -43,10 +38,10 @@
 },
 "#st":{
 	text: "READY",
-	top: 250,
+	top: 230,
 	font:{
 		fontFamily: 'HelveticaNeue-Light',
-		fontSize: 28
+		fontSize: 20
 	}
 },
 "#startDetectionBtn":{

@@ -3,9 +3,7 @@ Core.checkPermissions();
 
 // If the user has declined the permissions, he can go to the Settings and re-enabled,
 // but we want to check instantly again
-Ti.App.addEventListener('resumed', function(e) {
-	Core.checkPermissions();
-});
+Ti.App.addEventListener('resumed', Core.checkPermissions);
 
 
 // ********** Bonus TIP ********** 

@@ -14,7 +14,7 @@ Router.on('/home', function() {
 
 });
 
-// With this route we match any sharing to a platform specified in the route,
+// With this route we match any sharing to a platform specified in the route, using the regexs
 // in this form: `/share/facebook?modulo=22`
 Router.on(/^\/share\/(\w+)/, function(platform) {
 
@@ -30,5 +30,13 @@ Router.on(/^\/share\/(\w+)/, function(platform) {
 	T('sharer')[ platform ]({
 		url: url
 	});
-	
+
+});
+
+Router.on('/map', function() {
+
+	// Just use `Flow.open` and pass the controller name + eventual arguments
+	// and the window will be popped in the global navigation controller
+	Flow.open('map', this.queryKey, null, this.source);
+
 });

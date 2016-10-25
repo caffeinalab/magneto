@@ -1,51 +1,48 @@
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
 var args = $.args;
 
+//////////////////
+// Private vars //
+//////////////////
+
 var currentStepIndex = -1;
 var isDetecting = false;
-var detectInterval;
+var detectInterval = null;
 
+// Reference only locally the library
 var Sounds = T('sounds');
 
-// These are the steps (from min to max) that defines the UI and behaviours.
+// These are the steps (from min to max) 
+// that defines the UI and behaviours.
 var STEPS = [
 {
 	value: 0,
-	backgroundColor: '#2ecc71',
+	backgroundColor: '#2ECC71',
 	title: 'LOW',
 	vibrate: false,
 	sound: null
 },
 {
 	value: 40,
-	backgroundColor: '#f1c40f',
+	backgroundColor: '#F1C40F',
 	title: 'MEDIUM',
 	vibrate: true,
-	sound: Sounds.create('fx/warn.mp3')
+	sound: Alloy.Globals.SIMULATOR ? null : Sounds.create('fx/warn.mp3')
 },
 {
 	value: 400,
 	backgroundColor: '#F75F21',
 	title: 'HIGH',
 	vibrate: true,
-	sound: Sounds.create('fx/wtf.mp3')
+	sound: Alloy.Globals.SIMULATOR ? null : Sounds.create('fx/wtf.mp3')
 }
 ];
 
-$.shareFb.addEventListener('click', function() {
-	// Dispatch the share route to the target platform using the 
-	// Util.buildQuery to build the request (no real needed, only for proof of concept)
-	Router.go('/share/facebook' + Util.buildQuery({ modulo: Core.moduloAsString }));
-});
+/////////////////////
+// Private methods //
+/////////////////////
 
-$.shareTw.addEventListener('click', function() {
-	// Dispatch the share route to the target platform using the 
-	// Util.buildQuery to build the request (no real needed, only for proof of concept)
-	Router.go('/share/twitter' + Util.buildQuery({ modulo: Core.moduloAsString }));
-});
-
-// This is the listener that does every fucking thing
-$.startDetectionBtn.addEventListener('click', function(){
+function maybeDetect() {
 	if (isDetecting) {
 		
 		// Change the button UI
@@ -77,7 +74,7 @@ $.startDetectionBtn.addEventListener('click', function(){
 		Core.startDetection();
 
 	}
-});
+}
 
 // Respond to the main event changing the UI according it
 function refreshUI() {
@@ -123,21 +120,36 @@ function refreshUI() {
 	}
 }
 
-// Get current user position
-Geo.getCurrentPosition({
-	success: function(geoData) {
+///////////////
+// Listeners //
+///////////////
 
-		// Set the new region of the map
-		$.mapView.setRegion({
-			animated: true,
-			latitude: geoData.latitude,
-			longitude: geoData.longitude,
-			latitudeDelta: 1,
-		});
-	
-	}
+$.mapRightButton.addEventListener('click', function(e) {
+	Router.go('/map');
 });
 
+$.shareFb.addEventListener('click', function() {
+	// Dispatch the share route to the target platform using the 
+	// Util.buildQuery to build the request (no real needed, only for proof of concept)
+	Router.go('/share/facebook' + Util.buildQuery({ modulo: Core.moduloAsString }));
+});
+
+$.shareTw.addEventListener('click', function() {
+	// Dispatch the share route to the target platform using the 
+	// Util.buildQuery to build the request (no real needed, only for proof of concept)
+	Router.go('/share/twitter' + Util.buildQuery({ modulo: Core.moduloAsString }));
+});
+
+// This is the listener that does every fucking thing
+$.startDetectionBtn.addEventListener('click', function(){
+	maybeDetect();
+});
+
+//////////
+// Init //
+//////////
+
+// Retrieve the earth magnetic vector and visualize in the label
 Core.getEarthMagneticVector(function() {
 	$.earthIntensityLabel.text = Core.earthMagneticIntensity;
 });
@@ -145,4 +157,4 @@ Core.getEarthMagneticVector(function() {
 // Set, in a single call, the global navigator (and open it), 
 // the boot controller and the boot window.
 // You can now access to the navigator using `Flow.getNavigationController()` 
-Flow.startup($, $.mainNav, $.mainWindow, 'main', {});
+Flow.startup($, $.mainNav, $.mainWindow, 'home', {});

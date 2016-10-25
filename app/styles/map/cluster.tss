@@ -1,0 +1,19 @@
+"#mainView":{
+	width: 30,
+	height: 30,
+	backgroundColor: '#BFFF',
+	borderColor: '#888',
+	borderWidth: 2,
+	borderRadius: 15,
+},
+"#mainLabel":{
+	left: 0,
+	right: 0,
+	textAlign: 'center',
+	color: '#000',
+	height: 20,
+	font: {
+		fontWeight: 'bold',
+		fontSize: 10
+	}
+}
