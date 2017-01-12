@@ -1,0 +1,7 @@
+".cfn_SiriWave": {
+	touchEnabled: false,
+	width: Ti.UI.FILL,
+	height: 150,
+	backgroundColor: 'transparent',
+	hideLoadIndicator: true,
+}
